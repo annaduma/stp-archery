@@ -13,13 +13,13 @@
   text-align: center;
 }
 
-.logo {
-  display: block;
-  margin: auto;
-  width: 100%;
-  text-decoration: none;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  text-indent: -9999px
+#logo {
+  height: 100px;
+  vertical-align: middle;
+  float: left;
+}
+
+li {
+  display: inline;
+  list-style: none;
 }
