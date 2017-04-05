@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .company-title {
@@ -26,15 +27,22 @@ h1 {
 }
 
 h1 h2 h3 h4 {
-  font-family: 'Lato', sans-serif;
+
+  color: #654321;
+}
+
+h3 {
+  color: #654321;
 }
 
 h2 {
   text-align: center;
+  color: #654321;
 }
 
 p {
   font-family:'Lato', sans-serif;
+  color: #654321;
 }
 
 .main-nav {
@@ -84,7 +92,7 @@ p {
 #aside {
   display: block;
   position: relative;
-  border: solid black;
+  border: solid #654321;
   width: 100%;
 }
 
@@ -125,4 +133,13 @@ p {
 
 .twitter-logo:visited {
   color: #0084b4;
+}
+
+.about-images {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  width: 300px;
+  box-shadow: 6px 6px 5px #999999;
 }
