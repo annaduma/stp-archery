@@ -73,7 +73,7 @@ nav ul {
 }
 
 .main {
-  padding: 1rem;
+  padding: 0 4rem;
   margin: 0rem;
   background-color: white;
 }
@@ -163,24 +163,12 @@ nav ul {
   color: #0084b4;
 }
 
-.about-images {
-  display: inline;
-  justify-content: space-around;
-  margin: auto;
-  width: 100px;
-  box-shadow: 10px 10px 10px #999999;
-}
-
 table, th, td {
   border: 1px solid gray;
 }
 
 table {
   margin: 0 2rem;
-}
-
-tr:nth-child(even) {
-  background-color: lightgrey;
 }
 
 th, td {
