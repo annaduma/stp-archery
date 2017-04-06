@@ -21,11 +21,13 @@
 h1 {
   padding: 0;
   margin: 0;
+  color: #654321;
 }
 
-h1 h2 h3 h4 {
-
+h2, h4 {
   color: #654321;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 h3 {
@@ -97,10 +99,15 @@ nav ul {
 #aside {
   display: block;
   position: relative;
-  border: solid #654321;
+  border: 1px solid #654321;
   width: 100%;
-  margin: 0;
+  margin: 1rem 0 0 0;
   padding: 0;
+}
+
+.aside-content {
+  padding: 0;
+  margin: 1rem;
 }
 
 #footer {
@@ -148,4 +155,25 @@ nav ul {
   margin: auto;
   width: 100px;
   box-shadow: 10px 10px 10px #999999;
+}
+
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+td {
+  margin
+}
+
+th {
+  text-align: center;
+}
+
+.classes-table {
+
 }

@@ -60,6 +60,8 @@
 }
 
 .about-main-nav {
-  background-color: lightpink;
+  border-bottom: solid #62BD43;
+  margin: 0 auto;
+  padding: 0;
   width: 100%;
 }
