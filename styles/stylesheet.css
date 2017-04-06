@@ -45,6 +45,8 @@ h2 {
 p {
   font-family:'Lato', sans-serif;
   color: #654321;
+  padding: 0;
+  margin: 0;
 }
 
 .main-nav {
@@ -118,6 +120,8 @@ nav ul {
   width: 100%;
   font-style: italic;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .social-media {
