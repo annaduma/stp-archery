@@ -25,11 +25,12 @@ h1 {
   font-weight: bold;
 }
 
-h2, h4 {
+h2 {
   color: #654321;
   padding: 1rem;
   margin: 1rem;
   font-weight: bold;
+  text-align: center;
 }
 
 h3 {
@@ -37,9 +38,9 @@ h3 {
   font-weight: bold;
 }
 
-h2 {
-  text-align: center;
+h4 {
   color: #654321;
+  font-weight: bold;
 }
 
 p {
@@ -89,7 +90,6 @@ nav ul {
   display: block;
   margin: 1rem auto;
   width: 400px;
-  box-shadow: 6px 6px 5px #999999;
 }
 
 .instructor-images {
