@@ -1,0 +1,17 @@
+/*16px == 1rem */
+
+* { box-sizing: border-box; }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-gutter {
+  margin: 1rem;
+}
+
+.instructor-images {
+  height: 200px;
+  width: 200px;
+}

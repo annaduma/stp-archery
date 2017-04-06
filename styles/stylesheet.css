@@ -84,6 +84,10 @@ p {
   box-shadow: 6px 6px 5px #999999;
 }
 
+.instructor-images {
+  border-radius: 50%;
+}
+
 .calendar {
     display: block;
     margin: auto;
