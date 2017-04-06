@@ -15,3 +15,20 @@
   height: 200px;
   width: 200px;
 }
+
+.logo {
+  padding-left: 1rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+.about-images {
+  margin: 0;
+  padding: 0;
+}
+
+.instructors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
