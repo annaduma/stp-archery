@@ -6,7 +6,7 @@
 }
 
 html, body {
-  height: 100%;
+  height: auto;
 }
 
 .company-title {
@@ -77,6 +77,11 @@ nav ul {
   border-radius: 50%;
 }
 
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -120,13 +125,12 @@ nav ul {
   margin: 1rem;
 }
 
+
 #footer {
-  background-color: #62BD43;
-  width: 100%;
   font-style: italic;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  background-color: #62BD43;
+  width: 100%;
 }
 
 .social-media {
